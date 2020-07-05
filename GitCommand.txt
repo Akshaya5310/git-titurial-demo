@@ -45,8 +45,30 @@ unstaging and unmodifing:-
 --------------------------------
 -> git restore --staged filename  -> staging area to unstaging move.
 -> git checkout -- filename  -> previous code back
+-> git checkout -f  -> last changes code back(all files)
+
+push an existing repository from the command line:-
+-----------------------------------------------------
+-> git remote add origin https://github.com/Akshaya5310/git-titurial-demo.git
+-> git remote  -> show remote name(origin)
+-> git remote -v -> show push and pull link
+origin  https://github.com/Akshaya5310/git-titurial-demo.git (fetch)
+origin  https://github.com/Akshaya5310/git-titurial-demo.git (push)
+
+-> git push -u origin master -> push remote
 
 
+SSH and GPG keys :-
+---------------------
+-> git remote add origin https://github.com/Akshaya5310/git-titurial-demo.git
+-> git remote
+-> git remote -v
+-> git push -u origin master (if any error:permission or fatal:Could not read from remote repository) 
+   then next step
+-> ssh-keygen -t rsa -b 4096 -C "akshayamahanty2014@gmail.com"
+-> eval $(ssh-agent -s)
+-> ssh-add ~/.ssh/id_rsa
+-> tail ~/.ssh/id_rsa.pub
 
 
 

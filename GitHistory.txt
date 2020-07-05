@@ -1,0 +1,44 @@
+link: https://www.youtube.com/watch?v=evknSAkUIvs&list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi
+GitHub
+=======
+Git is a version control system.
+	->Easely recover files.
+	->Who introduced, an issue and when ?
+	->Rollback to preavious working state.
+
+History of version control system.
+	->local vcs -> Data base keep track of files.
+	->pros -> can track files and rollback.
+	->cons -> if you lose your hard disk, everthing is lose.
+	
+centralized version control system.
+	->centralized server used.
+	->one server pulling data and push data.
+	->if you server crass then lose your data.
+	
+Distributed version control system.
+	->almost same as centralized server.
+	->but distributed server full backup files also avalable in client system.
+	->only source files is backup.
+	->only changes files or new code is backup not everthing.
+	
+How was git created?
+	->linux kernel developing linux in 1991-2002.in paching code and exchange code.
+	->in 2002 BitPaper VCS used and developing code linux.
+	->later BitPaper vcs in 2005 charges them big amount.
+	->Linus Torvalds created GIT free of charges.
+	->GIT and GitHub both are different 
+	->GIT is a software.
+	->GitHub is a hosting web site. GitHub manages GIT
+
+GIT Fitures.
+	->snapshort saved in .git is full history manage. 
+	->Almost everthing operation is local saved. and leter push distributed repository.
+	->git has integrity means it create checksum files it's unique number. third party any changes then checksum number will be change.
+	->git generally add data evertime version wise.
+	
+File status lifecycle
+	->untracked
+	->unmodified
+	->modified
+	->staged

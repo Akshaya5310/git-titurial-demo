@@ -1,0 +1,77 @@
+git command:
+-------------------------------
+-> git status
+-> git init -> create repository
+-> git add --a  -> all file send in staging area 
+-> git commit -m "initial commit"  -> all files save and given one message
+-> git log  ->show last time commit details.
+-> git add GitCommand.txt  -> only one file send in staging area
+-> rm -rf .git -> delete .git hidden file and repositry
+-> git clone (url) -> add repository link
+-> pwd -> present working directory
+-> ls  -> list
+-> cd  -> change directory
+-> touch filename(error.log)  -> create file 
+-> touch .gitignore  -> file or folder ignor
+-> git diff -> difference between staging area and working directory.
+-> git diff --staged  -> previous commit and current staging area difference.
+
+Staging area skip:-
+------------------------------
+-> git commit -a -m "Direct commit" -> In this command skip staging area and Direct commit.
+Note:- if you create new file then this command not commit directly. only tracked file or folder commit.
+
+Move and Rename file:-
+------------------------------
+-> git rm filename -> remove file 
+-> git rm --cached file name -> tracked file to change untracked file.
+
+Viewing & Changing commits:-
+------------------------------ 
+-> git log -p -> what is remove and add details show.
+-> git log -p -3 -> three comment show.
+-> git log --stat -> shortly show in details.
+-> git log --pretty=oneline  -> what changes show in one line.
+-> git log --pretty=short
+-> git log --pretty=full
+-> git log --since=2.days  -> last two days details show.
+-> git log --since=2.weeks
+-> git log --since=2.months
+-> git log --since=2.years
+-> git log --pretty=format:"%h -- %ae"  -> any format show as requre
+-> git commit --amend  -> change kar na    i esc :wq 
+
+unstaging and unmodifing:-
+--------------------------------
+-> git restore --staged filename  -> staging area to unstaging move.
+-> git checkout -- filename  -> previous code back
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
